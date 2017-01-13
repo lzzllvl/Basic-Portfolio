@@ -49,6 +49,12 @@ hr {
   margin: 0 0 15px 0;
 }
 
+textarea, input {
+  width: 615px;
+  margin-top: 7px;
+  padding: 1px;
+}
+
 .wrapper {
   text-align: center;
   padding: 0;
@@ -82,7 +88,6 @@ hr {
   float: right;
   margin-top: 25px;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-
 }
 
 #main {
@@ -116,6 +121,10 @@ hr {
   height: 50px;
 }
 
+#sidebar img:hover {
+  opacity: 0.5;
+}
+
 #footer {
   margin-top: 16px;
   border-style: outset;
@@ -135,13 +144,6 @@ hr {
   height: 4em;
 }
 
-textarea, input {
-  width: 615px;
-  margin-top: 7px;
-  padding: 1px;
-}
-
-
 #messageform {
   width: 630px;
   text-align: left;
@@ -157,4 +159,42 @@ img#profile {
 img#stackfix{
   height: 44.5px;
   margin: 0 0 3px 2px;
+}
+
+/**
+  * This is the section for the portfolio images, with text overlay
+  */
+
+.module {
+  height: 250px;
+  width: 45%;
+  float: left;
+  margin: 10px;
+  background-size: cover;
+  position: relative;
+}
+
+.module h4 {
+  margin-top: 190px;
+  color: #fff;
+  background-color: #4aaaa5;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 18px;
+  padding: 12px 0 12px 0;
+}
+
+#rand2 {
+  background-image: url("../images/randompic2.jpg");
+}
+#rand3 {
+  background-image: url("../images/randompic3.jpg");
+}
+#rand4 {
+  background-image: url("../images/randompic4.jpg");
+}
+#rand5 {
+  background-image: url("../images/randompic5.jpg");
+}
+#rand6 {
+  background-image: url("../images/randompic6.jpg");
 }
