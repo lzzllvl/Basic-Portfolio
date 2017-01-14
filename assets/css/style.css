@@ -81,6 +81,7 @@ textarea, input {
   border-width: 0px 0px 3px 0px;
   border-color: #cccccc;
   background-color: #ffffff;
+  min-width:960px;
   width: 100%;
 }
 
@@ -131,6 +132,7 @@ textarea, input {
   border-width: 7px 0px 0px 0px;
   border-color: #4aaaa5;
   background-color: #666666;
+  min-width: 960px;
   width: 100%;
 }
 
