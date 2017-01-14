@@ -10,6 +10,10 @@ h1, h3 {
   font-weight: bold;
 }
 
+/**
+  * This h1 style has become superfluous
+  * as the header/logo is now a png
+  */
 h1 {
   font-size: 28px;
   display: inline-block;
@@ -55,18 +59,25 @@ textarea, input {
   margin-top: 7px;
   padding: 1px;
 }
-
+/**
 .wrapper {
   text-align: center;
   padding: 0;
   margin: 0;
 }
+*/
 .content {
   margin:0 15px 0 15px;
   width: 960px;
   text-align: center;
   display: inline-block;
 }
+
+/**
+  * This container was created soley for the
+  * sticky footer, which is why there is `em`
+  * and `!important` usage - for IE 6
+  */
 
 .main-container {
   min-height: 100%;
@@ -148,6 +159,12 @@ button:hover {
   opacity: 0.5;
 }
 
+/**
+  * footer styles - sticky footer works,
+  *but all the styles for the sticky footer
+  * are distributed in the styles file
+  */
+
 #footer {
   margin-top: 16px;
   border-style: outset;
@@ -179,6 +196,11 @@ img#profile {
   height: 75px;
   float: left;
 }
+
+/**
+  * StackExchange icon didn't have the margin
+  * and it wasn't the right size.
+  */
 
 img#stackfix{
   height: 44.5px;
