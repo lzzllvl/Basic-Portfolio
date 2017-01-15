@@ -13,7 +13,9 @@ h1, h3 {
 
 /**
   * This h1 style has become superfluous
-  * as the header/logo is now a png
+  * as the header/logo is now a png.
+  * I left in the style should I have to go back
+  * to the assignment spec.
   */
 h1 {
   font-size: 28px;
@@ -49,6 +51,9 @@ a:hover {
 p {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: #777777;
+  text-align: left;
+  font-size: 14px;
+  line-height: 19px;
 }
 
 hr {
@@ -145,8 +150,8 @@ button:hover {
 
 #main {
   float: left;
-  padding: 0 10px 0 20px;
-  width: 630px;
+  padding: 0 20px 20px 20px;
+  width: 610px;
 }
 
 #sidebar {
@@ -178,7 +183,6 @@ button:hover {
   */
 
 #footer {
-  text-align: center;
   margin-top: 16px;
   border-style: outset;
   border-width: 7px 0px 0px 0px;
@@ -189,6 +193,7 @@ button:hover {
 }
 
 #footer p {
+  text-align: center;
   color: #D3D3D3;
   font-size: 12px;
   padding-top: 30px;
@@ -200,7 +205,8 @@ button:hover {
 
 
 img#profile {
-  height: 75px;
+  height: 150px;
+  margin-right: 15px;
   float: left;
 }
 
