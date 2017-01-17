@@ -61,7 +61,7 @@ hr {
 }
 
 .content {
-  margin: 0 auto;
+  margin: 0 10px;
   width: 960px;
   text-align: center;
   display: inline-block;
